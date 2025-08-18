@@ -27,14 +27,14 @@ env:
   REPO_BRANCH: master
   PLATFORM_FILE: configs/N1.txt
   CONFIG_FILE: configs/packages-L.txt
-  CONFIG_5G: configs/packages-5G.txt
+  #CONFIG_5G: configs/packages-5G.txt
   SETTINGS_SH: scripts/init-settings.sh
   PACKAGES_SH: scripts/packages.sh
-  INSTALL5G_SH: scripts/install-5G.sh
+  #INSTALL5G_SH: scripts/install-5G.sh
   CLASH_CORE_SH: scripts/preset-clash-core-arm64-L.sh
   ADDMOUNT_SH: scripts/add_automount.sh
-  UPLOAD_BIN_DIR: false
-  UPLOAD_FIRMWARE: false
+  UPLOAD_BIN_DIR: true
+  UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
