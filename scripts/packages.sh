@@ -23,6 +23,8 @@ rm -rf ./feeds/luci/applications/luci-app-openclash
 #克隆插件
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git package/pwpage
 
+# 增加nikki
+echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
 
 mkdir package/small
 pushd package/small
